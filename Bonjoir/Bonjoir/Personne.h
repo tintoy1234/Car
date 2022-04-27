@@ -23,4 +23,5 @@ public:
 	int GetMoney();
 
 	void DisplaySumup();
+	void DisplayJohn();
 };

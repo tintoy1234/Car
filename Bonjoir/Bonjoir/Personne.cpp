@@ -50,5 +50,11 @@ void Personne::DisplaySumup()
 {
 	cout << "The person " << Thename << " was created." << endl;
 	cout << Thename << " was born on " << mBday << " and is a " << mGender << "." << endl;
-	cout << Thename << " has " << mMoney << "$ and " << mDescription << ".\n";
+	cout << Thename << " has " << mMoney << "$ and " << mDescription << "." << endl;
+	cout << "-------------------------------------------------------------------------\n";
+}
+void Personne::DisplayJohn() 
+{
+	cout << Thename << " was born on " << mBday << " and is a " << mGender << ".\n";
+	cout << Thename << " has " << mMoney;
 }
